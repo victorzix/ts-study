@@ -1,2 +1,3 @@
-import funcao from './mod';
-funcao()
+import './form-control';
+
+
