@@ -7,11 +7,11 @@ export class Pessoa {
   ) {}
 
   set cpf(cpf: string){
-    this.cpf = cpf
+    this._cpf = cpf
   }
 
   get cpf(): string {
-    return this.cpf.replace(/\D/g, '');
+    return this._cpf.replace(/\D/g, '');
   }
 }
 

@@ -1,3 +1,3 @@
-import './form-control';
+import '../A005-video/index'
 
 
