@@ -1,13 +1,7 @@
-namespace MeuNameSpace {
-  export const nomeDoNameSpace = 'Victor';
+import _ from 'lodash'
 
-  export class PessoaDoNameSpace {
-    constructor(public nome: string) {}
-  }
+_.mul = function(array: number[]): number {
+  return array.reduce((total, actual) => total * actual, 1)
+};
 
-  const pessoaDoNameSpace = new MeuNameSpace.PessoaDoNameSpace('Victor');
-
-  export namespace OutroNameSpace {
-    export const nomeDoNameSpace = 'Outro';
-  }
-}
+export default _
